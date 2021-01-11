@@ -7,6 +7,28 @@ namespace KSB039 {
     let neoStrip: neopixel.Strip;
 
 
+    /**
+    * P1
+    */
+    //% blockId=KSB039_Mic
+    //% block="Mic"
+    //% weight=98
+    export function Mic(): number {
+
+        return pins.analogReadPin(AnalogPin.P1);
+    }
+
+    /**
+    * P2
+    */
+    //% blockId=KSB039_Slider
+    //% block="Slider"
+    //% weight=98
+    export function Slider(): number {
+        
+        return pins.analogReadPin(AnalogPin.P2);;
+    }
+
 
     /**
     * P13
