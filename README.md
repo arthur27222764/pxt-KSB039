@@ -2,12 +2,12 @@
 
 ![image](images/ksb039.png)
 
-P0  Beep
-P1  Mic
-P2  Slider
-P13 Ultrasonic
-P14 IR Remote
-P16 RGB LED
+P0  Beep\
+P1  Mic\
+P2  Slider\
+P13 Ultrasonic\
+P14 IR Remote\
+P16 RGB LED\
 
 
 
