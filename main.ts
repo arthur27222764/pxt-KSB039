@@ -1,14 +1,16 @@
 /**
- * KSR030 V0.010
+ * KSB039 V0.010
  */
 //% weight=10 color=#00A6F0 icon="\uf085" block="KSB039"
 namespace KSB039 {
 
-    /**
-         * P13
-         
-    */
+    let neoStrip: neopixel.Strip;
 
+
+
+    /**
+    * P13
+    */
     //% blockId=KSB039_Ultrasonic
     //% block="Ultrasonic(cm)"
     //% weight=98
@@ -30,8 +32,7 @@ namespace KSB039 {
     }
 
     /**
-            * P16
-            
+    * P16
     */
     //% blockId="KSB039_RGB" 
     //% block="RGB LED "
