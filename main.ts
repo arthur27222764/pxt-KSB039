@@ -102,16 +102,13 @@ namespace KSB039 {
     //% blockId="KSB039_RGB4" 
     //% block="RGB LED4"
     //% weight=93
-    export function RGB_LED4(): neopixel.range {
+    export function RGB_LED4(): neopixel.Strip {
         if (!neoStrip) {
             neoStrip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
 
         }
 
-        
-        let range = neoStrip.range(3, 1)
-        
-        return range;
+        return neoStrip.range(3, 1);
     }
 
 
