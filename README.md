@@ -7,7 +7,7 @@ P1  Mic\
 P2  Slider\
 P13 Ultrasonic\
 P14 IR Remote\
-P16 RGB LED\
+P16 RGB LED
 
 
 
