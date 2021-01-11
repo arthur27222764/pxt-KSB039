@@ -2,7 +2,7 @@
 
 ![image](images/ksb039.png)
 
-p0  Beep
+P0  Beep
 P1  Mic
 P2  Slider
 P13 Ultrasonic
