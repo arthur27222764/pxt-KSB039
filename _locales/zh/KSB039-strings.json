@@ -1,0 +1,8 @@
+{
+	"KSB039|block": "KSB039",
+	"KSB039.Ultrasonic|block": "超音波測距(公分)",
+	"KSB039.Read_Track|block": "循跡感測器 %sensor",
+	"KSB039.RGB_LED|block": "全彩燈"
+	
+	
+}
