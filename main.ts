@@ -115,8 +115,8 @@ namespace KSB039 {
     * P16
     */
     //% blockId="KSB039_RGB" 
-    //% block="RGB LED"
-    //% weight=96
+    //% block="RGB LED Setting"
+    //% weight=92
     export function RGB_LED(): neopixel.Strip {
         if (!neoStrip) {
             neoStrip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
