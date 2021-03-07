@@ -5,7 +5,8 @@
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "neopixel": "github:microsoft/pxt-neopixel"
+        "neopixel": "github:microsoft/pxt-neopixel",
+        "KSRobot_IR": "github:kaise-ksrobot/pxt-ksrobot-ir"
     },
     "files": [
         "main.ts",
